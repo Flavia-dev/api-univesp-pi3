@@ -1,0 +1,36 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "title": "Univesp",
+      "description": "API Univesp PI com swagger",
+      "version": "1.0"
+    },
+    "host": "localhost:8000",
+    "basePath": "/",
+    "schemes": [
+      "http"
+    ],
+    "paths": {
+      "/anuncios": {
+        "get": {
+            "titulo": "Teste",
+            "descricao": "Qualquer coisa",                         
+            "modalidade": "Presencial",
+            "nivel":"Pleno",
+            "cidade": "Itu",
+            "empresa": "Univesp",
+            "salario": 2500.00,
+            "responses": {}
+        },
+        "post": {
+            "titulo": "Teste",
+            "descricao": "Qualquer coisa",                         
+            "modalidade": "Presencial",
+            "nivel":"Pleno",
+            "cidade": "Itu",
+            "empresa": "Univesp",
+            "salario": 2500.00
+        }
+      }
+    }   
+}
